@@ -12,6 +12,7 @@ public class Main {
         // 对命令行输入的参数进行筛选
         if (args.length != 3) {
             LOGGER.error("命令行输入参数个数有误...");
+            return;
         } else {
             for (String arg : args) {
                 if (!arg.endsWith("txt")) {
