@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 
 public class Main {
     public static final Logger LOGGER = LoggerFactory.getLogger("Main.class");
+
     public static void main(String[] args) {
         // 对命令行输入的参数进行筛选
         if (args.length != 3) {

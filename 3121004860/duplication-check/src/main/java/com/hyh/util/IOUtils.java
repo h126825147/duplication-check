@@ -30,13 +30,19 @@ public class IOUtils {
         return content.toString();
     }
 
+    /**
+     * 写入文件内容
+     *
+     * @param filePath 文件路径
+     * @param message  文件内容
+     */
     public static void writeFileContent(String filePath, String message) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true))) {
             writer.write(message);
             writer.newLine();
             writer.flush();
         } catch (IOException e) {
-            LOGGER.error("文件读取失败...");
+            LOGGER.error("打开文件失败...");
         }
     }
 }
