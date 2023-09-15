@@ -7,12 +7,15 @@ import java.io.*;
 
 public class IOUtils {
     public static final Logger LOGGER = LoggerFactory.getLogger("Main.class");
-    private IOUtils() {}
+
+    private IOUtils() {
+    }
 
     /**
      * 读取文件内容
-     * @param filePath  文件路径
-     * @return  文件内容
+     *
+     * @param filePath 文件路径
+     * @return 文件内容
      */
     public static String readFileContent(String filePath) {
         StringBuilder content = new StringBuilder();
