@@ -1,5 +1,0 @@
-文件 D:\HYHAO\Documents\duplication-check\3121004860\duplication-check\src\main\java\orig_0.8_add.txt 查重率为：0.86
-文件 D:\HYHAO\Documents\duplication-check\3121004860\duplication-check\src\main\java\orig_0.8_del.txt 查重率为：0.84
-文件 D:\HYHAO\Documents\duplication-check\3121004860\duplication-check\src\main\java\orig_0.8_dis_1.txt 查重率为：0.95
-文件 D:\HYHAO\Documents\duplication-check\3121004860\duplication-check\src\main\java\orig_0.8_dis_10.txt 查重率为：0.85
-文件 D:\HYHAO\Documents\duplication-check\3121004860\duplication-check\src\main\java\orig_0.8_dis_15.txt 查重率为：0.70

@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a888e61d-493e-443e-be47-96bd8cb3913f" name="更改" comment="feat:完成文件读取和写入功能&#10;chore:导入JUnit和Logback依赖">
-      <change afterPath="$PROJECT_DIR$/3121004860/duplication-check/src/main/java/com/hyh/util/CheckUtils.java" afterDir="false" />
+    <list default="true" id="a888e61d-493e-443e-be47-96bd8cb3913f" name="更改" comment="style：格式化代码；打包">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3121004860/duplication-check/src/test/java/com/hyh/util/CheckUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3121004860/duplication-check/src/test/java/com/hyh/util/IOUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/duplication-check.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3121004860/duplication-check/src/main/java/com/hyh/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/3121004860/duplication-check/src/main/java/com/hyh/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3121004860/duplication-check/src/main/java/target.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3121004860/duplication-check/src/main/java/target.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3121004860/duplication-check/src/main/java/orig.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3121004860/duplication-check/src/main/resources/orig.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3121004860/duplication-check/src/main/java/orig_0.8_add.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3121004860/duplication-check/src/main/resources/orig_0.8_add.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3121004860/duplication-check/src/main/java/orig_0.8_del.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3121004860/duplication-check/src/main/resources/orig_0.8_del.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3121004860/duplication-check/src/main/java/orig_0.8_dis_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3121004860/duplication-check/src/main/resources/orig_0.8_dis_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3121004860/duplication-check/src/main/java/orig_0.8_dis_10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3121004860/duplication-check/src/main/resources/orig_0.8_dis_10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3121004860/duplication-check/src/main/java/orig_0.8_dis_15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3121004860/duplication-check/src/main/resources/orig_0.8_dis_15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3121004860/duplication-check/src/main/java/target.txt" beforeDir="false" afterPath="$PROJECT_DIR$/3121004860/duplication-check/src/main/resources/target.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3121004860/duplication-check/target/duplication-check-1.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +37,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../develop/Maven/apache-maven-3.8.8" />
+        <option name="userSettingsFile" value="D:\develop\Maven\apache-maven-3.8.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -37,32 +56,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "D:/HYHAO/Documents/duplication-check/3121004860/duplication-check/src/main/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/HYHAO/Documents/duplication-check/3121004860/duplication-check/src/main/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\HYHAO\Documents\duplication-check\3121004860\duplication-check\src\main\java" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\HYHAO\Documents\duplication-check\3121004860\duplication-check\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CheckUtilsTest.calculateSimilarityTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hyh.Main" />
       <module name="duplication-check" />
@@ -76,22 +100,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="CheckUtilsTest.calculateSimilarityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="duplication-check" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hyh.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hyh.util" />
+      <option name="MAIN_CLASS_NAME" value="com.hyh.util.CheckUtilsTest" />
+      <option name="METHOD_NAME" value="calculateSimilarityTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="IOUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="duplication-check" />
-      <option name="filePath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hyh.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hyh.util" />
+      <option name="MAIN_CLASS_NAME" value="com.hyh.util.IOUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOUtilsTest.readFileContentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="duplication-check" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hyh.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hyh.util" />
+      <option name="MAIN_CLASS_NAME" value="com.hyh.util.IOUtilsTest" />
+      <option name="METHOD_NAME" value="readFileContentTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckUtilsTest.calculateSimilarityTest" />
+        <item itemvalue="JUnit.IOUtilsTest" />
         <item itemvalue="应用程序.Main" />
+        <item itemvalue="JUnit.IOUtilsTest.readFileContentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +165,14 @@
       <option name="presentableId" value="Default" />
       <updated>1694744993311</updated>
       <workItem from="1694744994356" duration="320000" />
-      <workItem from="1694745325399" duration="2212000" />
+      <workItem from="1694745325399" duration="2359000" />
+      <workItem from="1694747959016" duration="15000" />
+      <workItem from="1694753877039" duration="1532000" />
+      <workItem from="1694762172272" duration="747000" />
+      <workItem from="1694762931613" duration="78000" />
+      <workItem from="1694763025499" duration="507000" />
+      <workItem from="1694763540658" duration="1819000" />
+      <workItem from="1694765376837" duration="1037000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -130,7 +198,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694746571599</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat:完成计算论文相似度功能">
+      <option name="closed" value="true" />
+      <created>1694747626108</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694747626108</updated>
+    </task>
+    <task id="LOCAL-00005" summary="style：格式化代码；打包">
+      <option name="closed" value="true" />
+      <created>1694754168968</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694754168968</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +235,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="feat:完成文件读取和写入功能&#10;chore:导入JUnit和Logback依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:完成文件读取和写入功能&#10;chore:导入JUnit和Logback依赖" />
+    <MESSAGE value="feat:完成计算论文相似度功能" />
+    <MESSAGE value="style：格式化代码；打包" />
+    <option name="LAST_COMMIT_MESSAGE" value="style：格式化代码；打包" />
   </component>
 </project>
